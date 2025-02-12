@@ -77,7 +77,7 @@
             // 
             pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
             pesquisarToolStripMenuItem.Size = new Size(241, 26);
-            pesquisarToolStripMenuItem.Text = "Pesquisar";
+            pesquisarToolStripMenuItem.Text = "Pesquisaar";
             // 
             // adicionarToolStripMenuItem
             // 
@@ -90,7 +90,7 @@
             // 
             removerToolStripMenuItem.Name = "removerToolStripMenuItem";
             removerToolStripMenuItem.Size = new Size(241, 26);
-            removerToolStripMenuItem.Text = "Remmover";
+            removerToolStripMenuItem.Text = "Remmovver";
             // 
             // contasToolStripMenuItem
             // 
@@ -109,7 +109,7 @@
             // 
             excluirToolStripMenuItem1.Name = "excluirToolStripMenuItem1";
             excluirToolStripMenuItem1.Size = new Size(226, 26);
-            excluirToolStripMenuItem1.Text = "Excluir";
+            excluirToolStripMenuItem1.Text = "Excluur";
             // 
             // toolStripMenuItem1
             // 
@@ -146,13 +146,13 @@
             // pesquisarToolStripMenuItem2
             // 
             pesquisarToolStripMenuItem2.Name = "pesquisarToolStripMenuItem2";
-            pesquisarToolStripMenuItem2.Size = new Size(155, 26);
+            pesquisarToolStripMenuItem2.Size = new Size(224, 26);
             pesquisarToolStripMenuItem2.Text = "Pesquisar";
             // 
             // cadastrarToolStripMenuItem1
             // 
             cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
-            cadastrarToolStripMenuItem1.Size = new Size(155, 26);
+            cadastrarToolStripMenuItem1.Size = new Size(224, 26);
             cadastrarToolStripMenuItem1.Text = "Cadastrar";
             // 
             // funcionáriosToolStripMenuItem
@@ -166,14 +166,14 @@
             // pesquisarToolStripMenuItem3
             // 
             pesquisarToolStripMenuItem3.Name = "pesquisarToolStripMenuItem3";
-            pesquisarToolStripMenuItem3.Size = new Size(224, 26);
+            pesquisarToolStripMenuItem3.Size = new Size(164, 26);
             pesquisarToolStripMenuItem3.Text = "Pesquisar";
             // 
             // adicionarToolStripMenuItem1
             // 
             adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            adicionarToolStripMenuItem1.Size = new Size(224, 26);
-            adicionarToolStripMenuItem1.Text = "Adicionar";
+            adicionarToolStripMenuItem1.Size = new Size(164, 26);
+            adicionarToolStripMenuItem1.Text = "Adicionnar";
             // 
             // suporteToolStripMenuItem
             // 
@@ -186,7 +186,7 @@
             // 
             telefoneToolStripMenuItem.Name = "telefoneToolStripMenuItem";
             telefoneToolStripMenuItem.Size = new Size(224, 26);
-            telefoneToolStripMenuItem.Text = "Telefone";
+            telefoneToolStripMenuItem.Text = "Tellefone";
             // 
             // emailToolStripMenuItem
             // 

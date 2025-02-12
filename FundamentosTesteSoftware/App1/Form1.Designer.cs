@@ -71,7 +71,7 @@
             btnEmail.Location = new Point(281, 236);
             btnEmail.MaxLength = 0;
             btnEmail.Name = "btnEmail";
-            btnEmail.PlaceholderText = "meu@emaill";
+            btnEmail.PlaceholderText = "meu@email";
             btnEmail.Size = new Size(500, 38);
             btnEmail.TabIndex = 1;
             btnEmail.TextAlign = HorizontalAlignment.Center;
