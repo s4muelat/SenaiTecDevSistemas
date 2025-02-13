@@ -41,9 +41,10 @@
             // 
             btnSubmit.Anchor = AnchorStyles.None;
             btnSubmit.Font = new Font("Segoe UI", 11.8F, FontStyle.Bold);
-            btnSubmit.Location = new Point(281, 346);
+            btnSubmit.Location = new Point(246, 260);
+            btnSubmit.Margin = new Padding(3, 2, 3, 2);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(500, 38);
+            btnSubmit.Size = new Size(438, 28);
             btnSubmit.TabIndex = 0;
             btnSubmit.Text = "Entrar";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -53,12 +54,13 @@
             // 
             btnSenha.Anchor = AnchorStyles.None;
             btnSenha.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSenha.Location = new Point(281, 291);
-            btnSenha.MaxLength = 7;
+            btnSenha.Location = new Point(246, 218);
+            btnSenha.Margin = new Padding(3, 2, 3, 2);
+            btnSenha.MaxLength = 8;
             btnSenha.Name = "btnSenha";
             btnSenha.PasswordChar = '*';
             btnSenha.PlaceholderText = "********";
-            btnSenha.Size = new Size(500, 38);
+            btnSenha.Size = new Size(438, 32);
             btnSenha.TabIndex = 2;
             btnSenha.TextAlign = HorizontalAlignment.Center;
             btnSenha.UseSystemPasswordChar = true;
@@ -68,11 +70,12 @@
             // 
             btnEmail.Anchor = AnchorStyles.None;
             btnEmail.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEmail.Location = new Point(281, 236);
+            btnEmail.Location = new Point(246, 177);
+            btnEmail.Margin = new Padding(3, 2, 3, 2);
             btnEmail.MaxLength = 0;
             btnEmail.Name = "btnEmail";
             btnEmail.PlaceholderText = "meu@email";
-            btnEmail.Size = new Size(500, 38);
+            btnEmail.Size = new Size(438, 32);
             btnEmail.TabIndex = 1;
             btnEmail.TextAlign = HorizontalAlignment.Center;
             btnEmail.TextChanged += textBox2_TextChanged;
@@ -81,9 +84,9 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Location = new Point(488, 501);
+            label1.Location = new Point(427, 376);
             label1.Name = "label1";
-            label1.Size = new Size(87, 20);
+            label1.Size = new Size(68, 15);
             label1.TabIndex = 3;
             label1.Text = "Versão 1.0.0";
             // 
@@ -91,25 +94,27 @@
             // 
             pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Image = Properties.Resources.Design_sem_nome_4;
-            pictureBox1.Location = new Point(452, 53);
+            pictureBox1.Location = new Point(396, 40);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(159, 156);
+            pictureBox1.Size = new Size(139, 117);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1063, 530);
+            ClientSize = new Size(930, 398);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Controls.Add(btnSubmit);
             Controls.Add(btnEmail);
             Controls.Add(btnSenha);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "Form1";
             Text = "SIG - Sistema Integrado de Gerenciamento";

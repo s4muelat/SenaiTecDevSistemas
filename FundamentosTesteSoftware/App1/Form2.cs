@@ -44,8 +44,8 @@ namespace App1
 
         private void adicionarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // Form3 novoFormulario = new Form3();
-            //novoFormulario.Show();
+            Form3 CadastNovoFuncionario = new Form3();
+            CadastNovoFuncionario.Show();
         }
 
         private void funcionáriosToolStripMenuItem_Click(object sender, EventArgs e)
